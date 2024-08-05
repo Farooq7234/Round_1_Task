@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Familjen Grotesk", sans-serif;
+}
+
+header{
+    background-color:#0B224E ;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+}
+
+.headTop{
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.headTop ul li {
+    margin: 0px 15px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.headDown{
+    border: 1px solid white;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+
+.headDown img{
+    height: 20px;
+}
+
+.headDown ul li{
+    list-style: none;
+    margin: 0px 40px;
+    cursor: pointer;
+}
+
+.try-button{
+    background: none;
+    border: 1px solid white;
+    outline: none;
+    color:white;
+    padding: 3px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.hero-section{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #041A40;
+    padding-top: 60px;
+    width: 100%;
+}
+
+.hero-section h1{
+    font-size: 9vmin;
+}
+
+.hero-section h2{
+    font-size: 5vmin;
+}
+
+.stories-container{
+    margin-top: 40px;
+}
+
+.stories-container h2{
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.stories-cards{
+    gap: 10px;
+    padding: 10px;
+}
+
+
+
+.stories-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    height: 410px;
+    width: 440px;
+    /* background-image:linear-gradient(#FFFFFF 80%, #606266 100%, #434343 100%); */
+    background-color: rgb(213, 207, 207);
+    border:2px solid black;    
+    color: #434343;
+    padding:10px;
+}
+
+.stories-card h4{
+    font-size: 24px;
+}
+
+.stories-card p{
+    font-size: 18px;
+}
+
+.story-end-content{
+    display: flex;
+    justify-content: space-between;
+}
+
